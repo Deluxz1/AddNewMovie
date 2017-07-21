@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tjss.fragment.FragOne">
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/edittitle"
+        android:layout_marginStart="94dp"
+        android:layout_marginTop="56dp"
+        android:text="Title"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/editgenre"
+        android:layout_marginTop="46dp"
+        android:text="Genre"
+        android:layout_below="@+id/edittitle"
+        android:layout_alignStart="@+id/edittitle" />
+
+    <EditText
+        android:id="@+id/edityear"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="55dp"
+        android:layout_below="@+id/editgenre"
+        android:layout_alignStart="@+id/editgenre"
+        android:text="Year"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Movie"
+        android:id="@+id/bt1"
+        android:layout_below="@+id/edityear"
+        android:layout_alignStart="@+id/edityear"
+        android:layout_marginTop="90dp" />
+
+</RelativeLayout>
